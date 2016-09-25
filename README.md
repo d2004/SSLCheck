@@ -8,17 +8,17 @@ SSLCheck is a software can stop ManInTheMiddle attacks and no secure connections
 4. Have root permissions
 
 # How to install on a normal website
-Add on all pages this code:
+Add on all pages this code on PHP:
 
-<pre><?php include('SSLCheck.php'); ?></pre>
+<pre>include('SSLCheck.php');</pre>
 
 # How to install on a Wordpress website
 1. Go in "plugins"
 2. Search for "Heather and fouter editor"
 3. Download it
-4. Add the code:
+4. Add the code on PHP:
 
-<pre><?php include('SSLCheck.php'); ?></pre>
+<pre>include('SSLCheck.php');</pre>
 
 5. Now click save
 
